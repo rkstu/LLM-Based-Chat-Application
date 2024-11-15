@@ -2,6 +2,8 @@
 
 This is a language model-based chat application that provides users with relevant, up-to-date, and easy-to-understand responses by leveraging web search and a powerful language model. The basic flow involves performing a web search using DuckDuckGo, followed by generating a response using the Qwen2.5-0.5b-Instruct language model.
 
+Live project: https://huggingface.co/spaces/lightmate/llm-chatbot
+
 ## Features
 
 - **Web Search**: Performs real-time searches using DuckDuckGo to retrieve the latest relevant information.
