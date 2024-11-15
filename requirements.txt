@@ -1,0 +1,16 @@
+openvino>=2024.2.0
+openvino-tokenizers[transformers]
+torch>=2.1
+datasets
+duckduckgo-search
+langchain-community
+accelerate
+gradio>=4.19
+onnx<=1.16.1; sys_platform=='win32'
+einops
+transformers>=4.43.1
+transformers_stream_generator
+tiktoken
+bitsandbytes
+optimum-intel @ git+https://github.com/huggingface/optimum-intel.git
+nncf @ git+https://github.com/openvinotoolkit/nncf.git
