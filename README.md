@@ -9,6 +9,16 @@ This is a language model-based chat application that provides users with relevan
 - **Simple Interface**: Built with Gradio to offer an easy-to-use web interface for users to interact with the model.
 - **Efficient and Scalable**: Optimized for performance using Intel-specific optimizations via `optimum-intel` and other acceleration libraries.
 
+## Model Used
+- Language Model: qwen2.5-0.5b-instruct
+- A powerful and efficient model that generates human-like responses based on the query.
+
+## Application Flow
+- **User Query**: The user inputs a question or request.
+- **Web Search**: The system performs a web search using DuckDuckGo to gather recent and relevant information.
+- **Response Generation**: The gathered data is used to generate a clear, relevant, and easy-to-understand response using the qwen2.5-0.5b-instruct language model.
+- **User Response**: The application returns the generated response to the user.
+
 ## Dependencies
 
 The following dependencies are required for running this application:
