@@ -47,3 +47,12 @@ To install the required dependencies, you can use the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## License
+- This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+
+## Acknowledgements
+- **OpenVINO**: For efficient acceleration of the language model.
+- **DuckDuckGo**: For providing real-time web search capabilities.
+- **Hugging Face**: For providing powerful transformer models and tools.
